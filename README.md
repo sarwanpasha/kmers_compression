@@ -7,8 +7,11 @@ Overview
 Our method introduces a novel compression-based approach for classifying Anti-Cancer Peptides (ACPs) using incremental k-mer encoding and Gzip compression. Unlike traditional methods that compress entire sequences, our approach:
 
 Compresses individual k-mers incrementally to preserve neighboring amino acid context
+
 Uses Normalized Compression Distance (NCD) for pairwise sequence similarity
+
 Generates low-dimensional embeddings via Gaussian kernel and Kernel PCA
+
 Achieves state-of-the-art performance without requiring pre-trained models or extensive hyperparameter tuning
 
 Key Features
