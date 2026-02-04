@@ -1,4 +1,4 @@
-# K-mer Compression-based Anticancer Peptide Classification
+# Compression and k-mer based Approach For Anticancer Peptide Analysis
 
 This repository contains the implementation of our paper "Compression and k-mer based Approach For Anticancer Peptide Analysis".
 
