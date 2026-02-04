@@ -1,6 +1,6 @@
 # K-mer Compression-based Anticancer Peptide Classification
 
-This repository contains the implementation of our paper "Compression and k-mer based Approach For Anticancer Peptide Analysis" published in IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB).
+This repository contains the implementation of our paper "Compression and k-mer based Approach For Anticancer Peptide Analysis".
 Overview
 Our method introduces a novel compression-based approach for classifying Anti-Cancer Peptides (ACPs) using incremental k-mer encoding and Gzip compression. Unlike traditional methods that compress entire sequences, our approach:
 
