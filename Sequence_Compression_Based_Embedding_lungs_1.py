@@ -826,30 +826,6 @@ final_avg_mat = DataFrame(final_mean_mat,columns=["Accuracy","Precision","Recall
 print(final_avg_mat)
 
 
-# In[15]:
-
-
-#taking average of all k-fold performance values
-final_mean_mat = []
-
-final_mean_mat.append(np.transpose((list(svm_table_final.max()))))
-final_mean_mat.append(np.transpose((list(gauu_nb_table_final.max()))))
-final_mean_mat.append(np.transpose((list(mlp_table_final.max()))))
-final_mean_mat.append(np.transpose((list(knn_table_final.max()))))
-final_mean_mat.append(np.transpose((list(rf_table_final.max()))))
-final_mean_mat.append(np.transpose((list(lr_table_final.max()))))
-final_mean_mat.append(np.transpose((list(dt_table_final.max()))))
-
-final_avg_mat = DataFrame(final_mean_mat,columns=["Accuracy","Precision","Recall",
-                                                "F1 (weighted)","F1 (Macro)","ROC AUC","Runtime (Sec.)"], 
-                          index=["SVM","NB","MLP","KNN","RF","LR","DT"])
-
-print(final_avg_mat)
-
-
-# In[16]:
-
-
 #taking average of all k-fold performance values
 final_mean_mat = []
 
