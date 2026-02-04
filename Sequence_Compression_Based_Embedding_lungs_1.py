@@ -112,12 +112,12 @@ print("done")
 
 # In[13]:
 
-data_path = "/olga-data1/Sarwan/Dataset/Lungs_Cancer/"
+data_path = "./Lungs_Cancer/"
 
 
 
-seq_data = np.load(data_path + "Lungs_Cancer_Sequences_901.npy", allow_pickle=True)
-attribute_data = np.load(data_path + "Lungs_Cancer_attributes_901.npy", allow_pickle=True)
+seq_data = np.load(data_path + "Lungs_Cancer_Sequences.npy", allow_pickle=True)
+attribute_data = np.load(data_path + "Lungs_Cancer_attributes.npy", allow_pickle=True)
 
 
 
